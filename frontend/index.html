@@ -4,75 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atharva Kale - Resume</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
     <style>
         body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-top: 20px;
-}
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
 
-header {
-    border-bottom: 2px solid #eaeaea;
-    margin-bottom: 20px;
-}
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eaeaea;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
 
-header h1 {
-    margin: 0;
-}
+        header h1 {
+            margin: 0;
+        }
 
-header p {
-    font-size: 0.9em;
-    color: #555;
-}
+        header p {
+            font-size: 0.9em;
+            color: #555;
+        }
 
-a {
-    color: #0000EE;
-}
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
 
-section {
-    margin-bottom: 20px;
-}
+        a:hover {
+            text-decoration: underline;
+        }
 
-h2 {
-    color: #333;
-    border-bottom: 2px solid #eaeaea;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
+        section {
+            margin-bottom: 20px;
+        }
 
-ul {
-    list-style: none;
-    padding: 0;
-}
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
 
-ul li {
-    margin-bottom: 10px;
-}
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-footer {
-    text-align: right;
-    border-top: 2px solid #eaeaea;
-    padding-top: 10px;
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #555;
-}
-    
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .personal-details {
+            text-align: left;
+        }
+
+        .personal-details ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .personal-details ul li {
+            flex: 1 0 45%;
+        }
+
+        footer {
+            text-align: left;
+            border-top: 2px solid #eaeaea;
+            padding-top: 10px;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
     </style>
+</head>
 <body>
     <div class="container">
         <header>
@@ -132,7 +151,7 @@ footer {
                 <li>Completed the JP Morgan Agile Job Simulation by JPMorgan Chase & Co</li>
             </ul>
         </section>
-        <section>
+        <section class="personal-details">
             <h2>Personal Details</h2>
             <ul>
                 <li><strong>Father's Name:</strong> Atharva Kale</li>
